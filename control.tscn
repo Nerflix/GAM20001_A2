@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://hyfng3pnrl1h"]
+
+[ext_resource type="Script" uid="uid://c4asr07mk5hop" path="res://ui.gd" id="1_g28hq"]
+
+[node name="Control" type="Control" unique_id=2082223465]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g28hq")
+
+[node name="Button" type="Button" parent="." unique_id=255270544]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -276.0
+offset_top = -234.0
+offset_right = -203.0
+offset_bottom = -203.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Click Me"
+
+[node name="Button2" type="Button" parent="." unique_id=1946204367]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 130.0
+offset_right = 447.0
+offset_bottom = 161.0
+text = "Hide/Show Object"
+
+[node name="Button3" type="Button" parent="." unique_id=1242530775]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 170.0
+offset_right = 414.0
+offset_bottom = 201.0
+text = "Create Object"
+
+[node name="Button4" type="Button" parent="." unique_id=1663828728]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 210.0
+offset_right = 413.0
+offset_bottom = 241.0
+text = "Delete Object"
+
+[node name="Button5" type="Button" parent="." unique_id=527836026]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 250.0
+offset_right = 442.0
+offset_bottom = 281.0
+text = "Switch to Scene 2"
+
+[node name="Button6" type="Button" parent="." unique_id=2006233386]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 290.0
+offset_right = 387.0
+offset_bottom = 321.0
+text = "Exit Game
+"
+
+[node name="Button7" type="Button" parent="." unique_id=1525429834]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 330.0
+offset_right = 442.0
+offset_bottom = 361.0
+text = "Toggle Fullscreen"
+
+[node name="Label" type="Label" parent="." unique_id=295579367]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 50.0
+offset_right = 470.0
+offset_bottom = 73.0
+text = "Button not clicked yet"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=858984817]
+layout_mode = 0
+offset_left = 650.0
+offset_top = 350.0
+offset_right = 750.0
+offset_bottom = 450.0
+color = Color(0.39409325, 0.8392157, 0.34923923, 1)

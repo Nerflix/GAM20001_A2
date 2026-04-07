@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://bwpebal4msdjb"]
+
+[ext_resource type="Script" uid="uid://dky1e6dp6s3k0" path="res://scene2.gd" id="1_g28hq"]
+
+[node name="Control" type="Control" unique_id=52504293]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g28hq")
+
+[node name="Label" type="Label" parent="." unique_id=63213969]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "This is Scene 2!"
+
+[node name="Button" type="Button" parent="." unique_id=713686493]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 150.0
+offset_right = 454.0
+offset_bottom = 181.0
+text = "Go Back to Scene 1"
+
+[node name="Button2" type="Button" parent="." unique_id=1146653815]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 200.0
+offset_right = 442.0
+offset_bottom = 231.0
+text = "This is Scene 2"
