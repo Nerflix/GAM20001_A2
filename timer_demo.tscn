@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://c0kmei7ue4v8k"]
+
+[ext_resource type="Script" uid="uid://yud13g0etmn6" path="res://timer_demo.gd" id="1_xh8ds"]
+
+[node name="Node2D" type="Node2D" unique_id=1070658323]
+script = ExtResource("1_xh8ds")
+
+[node name="Button" type="Button" parent="." unique_id=224629524]
+offset_left = 400.0
+offset_top = 50.0
+offset_right = 522.0
+offset_bottom = 81.0
+text = "Spawn Objects"
+
+[node name="Label" type="Label" parent="." unique_id=2102670207]
+offset_left = 300.0
+offset_top = 100.0
+offset_right = 533.0
+offset_bottom = 123.0
+text = "Press button to spawn objects"
