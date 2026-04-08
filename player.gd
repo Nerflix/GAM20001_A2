@@ -3,7 +3,7 @@ extends CharacterBody2D
 const SPEED = 200.0
 
 @onready var label = $"../Label"
-
+		  
 func _physics_process(delta):
 	# Get analog axis input using Input Map
 	var input_vector = Vector2.ZERO
